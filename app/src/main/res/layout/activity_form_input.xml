@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormInputActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/dm10">
+
+    <EditText
+        android:id="@+id/et_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/judul_buku"
+        />
+
+    <EditText
+        android:id="@+id/et_isbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/isbn"
+        android:layout_marginTop="@dimen/dm20"
+        />
+
+    <Spinner
+        android:id="@+id/sp_tahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm20"
+        android:entries="@array/tahun"
+
+        />
+
+    <Spinner
+        android:id="@+id/sp_penerbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm20"
+        android:entries="@array/penerbit"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/dm20"
+        android:text="Kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/rg_ketegori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/rb_buku_agama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buku_agama"
+            />
+
+
+        <RadioButton
+            android:id="@+id/rb_buku_komputer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buku_komputer"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_novel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/novel"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_lainlain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lain_lain"
+            />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm20"
+        android:text="@string/jumlah"/>
+
+    <SeekBar
+        android:id="@+id/sb_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="20"
+        android:min="0"
+        android:progress="0"
+        />
+
+    <EditText
+        android:id="@+id/et_warna"
+        android:layout_marginTop="@dimen/dm20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kode_warna_hex"
+        />
+
+    <TextView
+        android:layout_marginTop="@dimen/dm20"
+        android:text="@string/kualitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <RatingBar
+        android:id="@+id/rb_kualitas"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="3"
+
+        />
+
+    <EditText
+        android:id="@+id/et_rangkuman"
+        android:layout_marginTop="@dimen/dm20"
+        android:hint="@string/rangkuman"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm80" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_marginTop="@dimen/dm20"
+        android:text="Simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>

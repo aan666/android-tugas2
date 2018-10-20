@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dm20"
+        >
+
+
+
+
+    <TextView
+        android:autoLink="web"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dm50"
+        android:id="@+id/tv_gambar" 
+        android:text="ini latar belakang warna"/>
+
+        
+    <RatingBar
+        android:isIndicator="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/rb_buku"
+        />
+    <!-- pertama -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm10"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku"/>
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul Bukunya"
+            android:textSize="@dimen/dm20"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            />
+
+    </LinearLayout>
+
+
+        <!-- kedua -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm10"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/isbn"/>
+
+        <TextView
+            android:id="@+id/tv_isbn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul Bukunya"
+            android:textSize="@dimen/dm20"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            />
+
+    </LinearLayout>
+
+
+        <!-- Ketiga -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm10"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tahun Terbit"/>
+
+        <TextView
+            android:id="@+id/tv_tahun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tahun Terbit"
+            android:textSize="@dimen/dm20"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            />
+
+    </LinearLayout>
+
+
+        <!-- Keempat -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm10"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penerbit"/>
+
+        <TextView
+            android:id="@+id/tv_penerbit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul Bukunya"
+            android:textSize="@dimen/dm20"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            />
+
+    </LinearLayout>
+
+
+        <!-- kelima -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm10"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kategori"/>
+
+        <TextView
+            android:id="@+id/tv_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul Bukunya"
+            android:textSize="@dimen/dm20"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            />
+
+    </LinearLayout>
+
+
+        <!-- keenam -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm10"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah"/>
+
+        <TextView
+            android:id="@+id/tv_jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Judul Bukunya"
+            android:textSize="@dimen/dm20"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            />
+
+    </LinearLayout>
+
+
+        <!-- ketujuh -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dm10"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rangkuman"/>
+
+        <TextView
+            android:id="@+id/tv_rangkuman"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dm100"
+            android:text="Judul Bukunya"
+            android:textSize="@dimen/dm20"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
